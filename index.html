@@ -1,0 +1,41 @@
+<html>
+
+<body>
+    <style>
+        .player-options img,
+        .enemy-options img {
+            max-width: 200px;
+            opacity: 0.3;
+            cursor: pointer;
+        }
+
+        .player-options,
+        .enemy-options {
+            width: 50%;
+            text-align: center;
+        }
+
+        .align {
+            display: flex;
+        }
+    </style>
+    <h1 style="text-align: center;">Pedra, Papel ou Tesoura!</h1>
+    <h2 style="text-align: center;" class="vencedor"></h2>
+    <hr>
+    <div class="align">
+        <div class="player-options">
+            <div><img opt="pedra" src="rock.png" /></div>
+            <div><img opt="papel" src="paper.png" /></div>
+            <div><img opt="tesoura" src="scisor.png" /></div>
+        </div>
+        <div class="enemy-options">
+            <div><img opt="pedra" src="rock.png" /></div>
+            <div><img opt="papel" src="paper.png" /></div>
+            <div><img opt="tesoura" src="scisor.png" /></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
